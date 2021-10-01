@@ -1,11 +1,33 @@
-body {
+#banner {
+    width: 100%;
+}
+
+.main {
     background: #CCCC;
+}
+
+h1{
+    text-align: center
 }
 
 p{
     text-align: center;
 }
 
+#missao {
+    font-size: 20px
+}
+
 i strong{
     color: royalblue;
+}
+h2{
+    text-align: center;
+}
+
+.itens {
+    font-style: italic;
+}
+.bene{
+    background: #ffff;
 }
