@@ -50,6 +50,16 @@ nav a:hover{
     border: 2px solid #000;
     border-radius: 20px;
 }
+.produtinho li:hover{
+    border-color: #C78C19;
+}
+.produtinho li:active{
+    border-color: #088619;
+}
+.produtinho li h2:hover{
+    font-size: 34px;
+}
+
 .produtinho h2{
     font-size: 30px;
     font-weight: bold;
@@ -66,4 +76,17 @@ nav a:hover{
     font-weight: bold;
     padding: auto;
     margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0 ;
+}
+
+.copy{
+    color: #fff;
+    font-size: 16px;
+    margin:20px 0 0;
+
 }
