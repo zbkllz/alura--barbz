@@ -1,0 +1,64 @@
+#banner {
+    width: 100%;
+}
+
+.main {
+    background: #CCCC;
+    padding: 30px;
+}
+.title {
+    padding-left: 20px;
+}
+.subt {
+    text-align: center
+}
+
+
+p{
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+i strong{
+    color: royalblue;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 1.5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.bene1{
+    width: 45%;
+    padding: 20px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.bene{
+    background: #ffff;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0 ;
+}
+
+.copy{
+    color: #fff;
+    font-size: 16px;
+    margin:20px 0 0;
+
+}
