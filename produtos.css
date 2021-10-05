@@ -28,6 +28,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .produtinho{
     width: 940px;
     margin:0 auto;
@@ -39,6 +44,11 @@ nav a {
     text-align: center; 
     width: 30%;
     vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 20px;
 }
 .produtinho h2{
     font-size: 30px;
@@ -55,4 +65,5 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     padding: auto;
+    margin: 10px 0 0;
 }
