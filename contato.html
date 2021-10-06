@@ -23,44 +23,43 @@
         <main>
             <form>
                 <label for="namesur">Nome e Sobrenome</label>
-                <input type="text" id="namesur" class="input-padrao">
+                <input type="text" id="namesur" class="input-padrao" required>
 
                 <label for="mails">Email</label>
-                <input type="text" id="mails" class="input-padrao">
+                <input type="email" id="mails" class="input-padrao"required placeholder="example@example.com">
 
                 <label for="cel">Telefone</label>
-                <input type="text" id="cel" class="input-padrao">
+                <input type="tel" id="cel" class="input-padrao"required placeholder="(xx)xxxxx-xxxx">
 
                 <label for="msg">Mensagem</label>
-                <textarea id="msg" class="input-padrao"></textarea>
+                <textarea id="msg" class="input-padrao"required></textarea>
 
-                <div>
-                    <p class="teste" id="teste">Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend class="teste" id="teste">Como prefere o nosso contato?</legend>
                     <label for="radio-mail"><input type="radio" name="contato" value="Email" id="radio-mail">Email</label>
                     
-
                     <label for="radio-cel"><input type="radio" name="contato" value="cel" id="radio-cel">Telefone</label>
                     
 
-                    <label for="radio-zap"><input type="radio" name="contato" value="cel" id="radio-zap">Whatsapp</label>                
-                </div>
+                    <label for="radio-zap"><input type="radio" name="contato" value="cel" id="radio-zap" checked>Whatsapp</label>                
+                </fieldset>
 
-                <div>
-                    <p class="horas">Qual horário prefere ser atendido?</p>
+                <fieldset>
+                    <legend class="horas">Qual horário prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
                     </select>
-                </div>
+                </fieldset>
 
-                <label class="checks"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                <label class="checks"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
                 <input type="submit" value="Enviar formulário">
             </form>
         </main>
         <footer>
-            <img src="logo-branco.png">
+            <img src="logo-branco.png"alt="Logo da barbearia">
             <p class="copy">&copy; Copyright Barbs - 2019</p>
         </footer>
     </body>
