@@ -26,12 +26,13 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    text-shadow: 2px 2px 5px rgb(128, 127, 127);
+    transition: 1s all;
 }
 
 nav a:hover{
     color: #C78C19;
-    text-decoration: underline;
-}
+     }
 
 .produtinho{
     width: 940px;
@@ -49,15 +50,16 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid #000;
     border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
 }
 .produtinho li:hover{
     border-color: #C78C19;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: scale(1.05)
 }
 .produtinho li:active{
     border-color: #088619;
-}
-.produtinho li h2:hover{
-    font-size: 34px;
 }
 
 .produtinho h2{
@@ -124,4 +126,38 @@ form label, form legend{
 
 select{
     width: 10%;
+}
+
+.enviar{
+    width: 25%;
+    padding: 15px 0;
+    background: #C78C19;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: hsl(36, 100%, 42%);
+    transform: scale(1.05)
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555;
+    color: #fff;
+    font-weight: bold;    
+}
+
+td, th{
+    border: 1px solid #000;
+    padding: 8px 15px;
 }
