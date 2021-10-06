@@ -161,3 +161,33 @@ td, th{
     border: 1px solid #000;
     padding: 8px 15px;
 }
+
+/*css da página inicial*/
+
+.banner{
+    width: 100%;
+}
+
+.subt{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+
+}
+.main p {
+    margin: 0 0 1em;
+}
+.main strong{
+    font-weight: bold;
+}
+.main em{
+    font-style: italic;
+}
+
+.bene1{
+    width: 60%;
+}
+.tools{
+    width: 150px;
+    float: left;
+}
