@@ -172,6 +172,7 @@ td, th{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear:left;
 
 }
 .main p {
@@ -184,10 +185,43 @@ td, th{
     font-style: italic;
 }
 
+.tools{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+.bene{
+    padding: 3em 0;
+}
+
 .bene1{
     width: 60%;
 }
-.tools{
-    width: 150px;
-    float: left;
+
+.benecontent{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.benelist{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.map{
+    padding: 3em 0;
+}
+.map p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
 }
