@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background: #ccc;
   padding: 20px;
@@ -82,7 +86,7 @@ nav a:hover {
 
 footer {
   text-align: center;
-  background: url(bg.jpg);
+  background: url("bg.jpg");
   padding: 40px 0;
 }
 
@@ -90,11 +94,6 @@ footer {
   color: #fff;
   font-size: 16px;
   margin: 20px 0 0;
-}
-
-main {
-  width: 940px;
-  margin: 0 auto;
 }
 
 form {
@@ -118,17 +117,6 @@ form legend {
   margin: 20px 0;
 }
 
-.horas {
-  display: block;
-  font-size: 20px;
-  margin: 0 0 10px;
-  padding: 10px 0;
-}
-
-select {
-  width: 10%;
-}
-
 .enviar {
   width: 25%;
   padding: 15px 0;
@@ -146,6 +134,17 @@ select {
 .enviar:hover {
   background: hsl(36, 100%, 42%);
   transform: scale(1.05);
+}
+
+.horas {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+select {
+  width: 10%;
 }
 
 table {
@@ -168,13 +167,23 @@ th {
 
 .banner {
   width: 100%;
+  height: 380px;
+  opacity: 0.8;
 }
 
 .subt {
+  font-weight: bold;
   text-align: center;
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+}
+
+.main {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .main p {
@@ -191,20 +200,28 @@ th {
   width: 20%;
   float: left;
   margin: 0 20px 20px 0;
+  opacity: 0.8;
 }
 
 .map {
   padding: 3em 0;
+  background: linear-gradient(#fefefe, rgb(165,165,165));
+}
+
+.map p {
+  margin: 0 0 2em;
+  text-align: center;
 }
 .bene {
   padding: 3em 0;
+  background: rgb(165, 165, 165);
 }
 
 .bene1 {
   width: 60%;
   opacity: 1;
   transition: 400ms;
-  box-shadow: 10px 10px 10px #ccc;
+  box-shadow: 10px 10px 10px rgb(88, 87, 87);
 }
 
 .bene1:hover {
@@ -226,18 +243,14 @@ th {
     line-height: 1.5;
 }
 
+.itens:first-child {
+	font-weight: bold;
+}
+
 .itens:before{
     content: "★";
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.map p {
-  margin: 0 0 2em;
-  text-align: center;
-}
 .video {
   width: 560px;
   margin: 2em auto;

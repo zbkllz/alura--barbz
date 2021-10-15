@@ -1,3 +1,2 @@
 # alur4Barbs
-Esse projeto refere-se a formação HTML e CSS da Alura (Barbearia Alura)
-Será a base de referência para montar meu curriculo online
+Barbearia Alura faz parte de um curso com quatro módulos sobre HTML da Alura, alguns complementos foram adicionados através de pesquisas no W3Schools
