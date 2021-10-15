@@ -23,7 +23,7 @@ nav li {
 nav a {
   text-transform: uppercase;
   color: #000;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 22px;
   text-decoration: none;
   text-shadow: 2px 2px 5px rgb(128, 127, 127);
@@ -177,8 +177,6 @@ th {
   clear: left;
 }
 
-
-
 .main p {
   margin: 0 0 1em;
 }
@@ -190,7 +188,7 @@ th {
 }
 
 .tools {
-  width: 120px;
+  width: 20%;
   float: left;
   margin: 0 20px 20px 0;
 }
@@ -204,6 +202,13 @@ th {
 
 .bene1 {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.bene1:hover {
+  opacity: 0.3;
 }
 
 .benecontent {
