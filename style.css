@@ -167,7 +167,7 @@ th {
 
 .banner {
   width: 100%;
-  height: 380px;
+  /*height: 380px;*/
   opacity: 0.8;
 }
 
@@ -255,3 +255,20 @@ th {
   width: 560px;
   margin: 2em auto;
 }
+
+@media screen and (max-width:480px){
+  .box, .main, .map, .video, .benecontent{
+    width: auto;
+  }
+  h1{
+    text-align: center;
+  }
+  nav{
+    position: static;
+  }
+  .benelist, .bene1{
+    width: 100%;
+  }
+  
+}
+
